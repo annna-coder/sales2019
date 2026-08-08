@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st
 import plotly.express as px
 st.set_page_config(page_title = 'My Sales Dashboard', page_icon = ':bar-chart:', layout = 'wide')
-df= pd.read_csv("/Users/prom1pro/dspy/learncode/00001/all_df.csv")
+df= pd.read_csv("all_df.csv")
 st.sidebar.header("Please Filter Here")
 myselect_products = st.sidebar.multiselect(
     "SELECT PRODUCT",
